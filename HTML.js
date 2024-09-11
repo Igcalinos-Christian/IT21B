@@ -28,7 +28,7 @@ class Flower{
 
 }
 
-const FLOWER = new Flower(Rose, Spring, Red);
+const FLOWER = new Flower("Rose", "Spring", "Red");
 FLOWER.NAME();
 FLOWER.isFragrant();
 FLOWER.COLOR();
